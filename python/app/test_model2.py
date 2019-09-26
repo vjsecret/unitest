@@ -1,11 +1,11 @@
 import unittest
-import testM2
+import model2
 
 class TestM2(unittest.TestCase):
     def setUp(self):
-        self.CalMo=testM2.CalMo(1,2,2)
-        self.cond4=testM2.cond4(1,2,2,12,0)
-        self.CalMo2=testM2.CalMo2(1,2,2)
+        self.CalMo=model2.CalMo(1,2,2)
+        self.cond4=model2.cond4(1,2,2,12,0)
+        self.CalMo2=model2.CalMo2(1,2,2)
         print('In setUp()')
 
 
